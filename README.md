@@ -36,17 +36,17 @@ The protocol is implemented as a layered system on W3C standards: RDF 1.2/RDF-st
 │          CWP (COMPREHENSION WEB PROTOCOL)              │
 │   CCI Resolution • CTI Exchange • Capability Discovery │
 │   Trust • Promises • Epistemic Games                   │
-└─────────┬───────────────────┬───────────────────┬──────┘
-          ▼                   ▼                   ▼
-┌──────────────────┐ ┌──────────────────┐ ┌──────────────────┐
-│    Semantic      │ │   Promise /      │ │   Agent /        │
-│    Registry      │ │   Authority      │ │   Capability     │
-│                  │ │   Engine         │ │   Registry       │
-│ CCI • Vocabular- │ │ Epistemic Games  │ │ DIDs • SBTs      │
-│ ies • Versions   │ │                  │ │ Capability Map   │
-└────────┬─────────┘ └────────┬─────────┘ └────────┬─────────┘
-         └────────────────────┼────────────────────┘
-                              ▼
+└─────────┬──────────────────┬───────────────────┬───────┘
+          ▼                  ▼                   ▼
+┌─────────────────┐ ┌─────────────────┐ ┌─────────────────┐
+│    Semantic     │ │   Promise /     │ │   Agent /       │
+│    Registry     │ │   Authority     │ │   Capability    │
+│                 │ │   Engine        │ │   Registry      │
+│ CCI • Vocabular-│ │ Epistemic Games │ │ DIDs • SBTs     │
+│ ies • Versions  │ │                 │ │ Capability Map  │
+└────────┬────────┘ └────────┬────────┘ └────────┬────────┘
+         └───────────────────┼───────────────────┘
+                             ▼
 ┌─────────────────────────────────────────────────────────┐
 │                     RDF 1.2 / RDF-STAR                  │
 │      Concepts • Propositions • CTI Reifiers             │
