@@ -19,24 +19,24 @@ The protocol is implemented as a layered system on W3C standards: RDF 1.2/RDF-st
 ### The Epistemic Stack
 
 ```
-┌────────────────────────────────────────────────────────┐
-│              APPLICATION / AGENT LAYER                 │
-│   Orchestrators • Communicators • Economists           │
-│   Verifiers • ML Executors • Intent Executors          │
-│   Validator Operators                                  │
-└─────────────────────────┬──────────────────────────────┘
+┌─────────────────────────────────────────────────────────┐
+│              APPLICATION / AGENT LAYER                  │
+│   Orchestrators • Communicators • Economists            │
+│   Verifiers • ML Executors • Intent Executors           │
+│   Validator Operators                                   │
+└─────────────────────────┬───────────────────────────────┘
                           ▼
-┌────────────────────────────────────────────────────────┐
-│            SEMANTIC ZERO / EPISTEMIC ENGINE            │
-│   Gap Detection • Qualification • Refusal              │
-│   Conflict Resolution • Vocabulary Governance          │
-└─────────────────────────┬──────────────────────────────┘
+┌─────────────────────────────────────────────────────────┐
+│            SEMANTIC ZERO / EPISTEMIC ENGINE             │
+│   Gap Detection • Qualification • Refusal               │
+│   Conflict Resolution • Vocabulary Governance           │
+└─────────────────────────┬───────────────────────────────┘
                           ▼
-┌────────────────────────────────────────────────────────┐
-│          CWP (COMPREHENSION WEB PROTOCOL)              │
-│   CCI Resolution • CTI Exchange • Capability Discovery │
-│   Trust • Promises • Epistemic Games                   │
-└─────────┬──────────────────┬───────────────────┬───────┘
+┌─────────────────────────────────────────────────────────┐
+│          CWP (COMPREHENSION WEB PROTOCOL)               │
+│   CCI Resolution • CTI Exchange • Capability Discovery  │
+│   Trust • Promises • Epistemic Games                    │
+└─────────┬──────────────────┬───────────────────┬────────┘
           ▼                  ▼                   ▼
 ┌─────────────────┐ ┌─────────────────┐ ┌─────────────────┐
 │    Semantic     │ │   Promise /     │ │   Agent /       │
