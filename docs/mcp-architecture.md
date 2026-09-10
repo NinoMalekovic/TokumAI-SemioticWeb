@@ -10,6 +10,15 @@ existing capability with lower privilege. The repository has no shared MCP serve
 MCP is optional, credential-bearing developer tooling and is configured locally by a
 developer who chooses to use it.
 
+## CI foundation
+
+GitHub Actions is the repository's CI foundation. CI is read-only and uses the
+ephemeral GitHub Actions token with `contents: read` permission only.
+
+n8n is intentionally deferred because no concrete workflow currently requires it.
+Any future n8n adoption requires a specific cross-system workflow and a separate
+security and credential review.
+
 ## Optional local GitHub MCP
 
 The GitHub MCP server provides structured, read-only GitHub access without using the
