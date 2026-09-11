@@ -2,7 +2,7 @@
 
 ## Purpose
 
-TokumAi-SemioticWeb is a TypeScript monorepo intended to support the Semiotic Web project and its agent-assisted development workflow.
+TokumAI-SemioticWeb is a TypeScript monorepo intended to support the Semiotic Web project and its agent-assisted development workflow.
 
 ## Repository Structure
 
